@@ -1,0 +1,37 @@
+https://rinkeby.infura.io/14470f78e2cc459d877bb629fdc5703a
+
+[Secret Key]
+39d45ad792884436bbf7f20bdc549944
+
+[Full Link from Infura]
+https://rinkeby.infura.io/v3/14470f78e2cc459d877bb629fdc5703a
+
+[Voting contract address]
+0x12123b59E6437E487ce69E59fF5a636B261E8758
+
+[Agrichain Contract Address]
+https://rinkeby.etherscan.io/address/0xb8Ebea87fF6cB183Bea5c5C75a5923EeDb261d2e
+
+[Rinkeby Admin Account Address]
+https://rinkeby.etherscan.io/address/0x2d62771cb1bbb9fc81289276014b76954a57b648
+
+[Mainnet Account Address]
+0xb5fe958d3789bedaf8faa561a4dce5c2f52ea214
+
+[Get Started with Web3]
+var Web3 = require('web3')
+var web3 = new Web3([LINK-TO-RPC]);
+
+[Get Balance]
+web3.eth.getBalance([Address], (err, wei)=>{balance = web3.utils.fromWei(wei, 'ether')})
+
+[Create New Account]
+web3.eth.accounts.create()
+{ address: '0x74768cF88BC8a4cd033d9136fbF5720Fa7d0ba21',
+  privateKey: '0xc25af6e6bf6790558aad8beda7056fc63bfd7a4c1f68b5bf31ca7daaf307aba8',
+  signTransaction: [Function: signTransaction],
+  sign: [Function: sign],
+  encrypt: [Function: encrypt] }
+
+[Smart-Contract Address]
+var contract = new web3.eth.Contract(abi, contractAddr)
