@@ -1,7 +1,5 @@
 https://rinkeby.infura.io/14470f78e2cc459d877bb629fdc5703a
 
-[Secret Key]
-39d45ad792884436bbf7f20bdc549944
 
 [Full Link from Infura]
 https://rinkeby.infura.io/v3/14470f78e2cc459d877bb629fdc5703a
@@ -15,8 +13,6 @@ https://rinkeby.etherscan.io/address/0xb8Ebea87fF6cB183Bea5c5C75a5923EeDb261d2e
 [Rinkeby Admin Account Address]
 https://rinkeby.etherscan.io/address/0x2d62771cb1bbb9fc81289276014b76954a57b648
 
-[Mainnet Account Address]
-0xb5fe958d3789bedaf8faa561a4dce5c2f52ea214
 
 [Get Started with Web3]
 var Web3 = require('web3')
